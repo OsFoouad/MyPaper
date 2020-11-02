@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Title"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/noteTitleEditText"/>
+    <EditText
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textPersonName"
+            android:hint="Note Content"
+            android:ems="10"
+            android:id="@+id/noteContentEditText"/>
+    <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginEnd="135dp"
+            android:text="Add Note"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AddNewNoteBtn"
+            android:layout_marginBottom="10dp"
+    android:background="#000"
+            android:textColor="#fff"
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <EditText
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Title"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/EditTitle"/>
+    <EditText
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textPersonName"
+            android:hint="Note Content"
+            android:ems="10"
+            android:id="@+id/EditContent"/>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+
+    >
+        <Button
+                android:id="@+id/Edit"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:text="Edit"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#394AD5"
+                android:textColor="#fff"
+
+        />
+        <Button
+                android:layout_marginBottom="20dp"
+                android:id="@+id/Delete"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:text="Delete"
+                android:textColor="@android:color/white"
+
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
